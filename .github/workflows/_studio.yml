@@ -9,6 +9,13 @@ on:
       - main
   pull_request:
     types: [opened, reopened, synchronize]
+  workflow_dispatch: # Manual trigger
+    inputs:
+      run-now:
+        description: 'Run workflow manually'
+        default: 'true'
+        required: false
+
 
 jobs:
   DB:
