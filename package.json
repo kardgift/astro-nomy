@@ -2,6 +2,7 @@
   "name": "astro-nomy",
   "type": "module",
   "version": "0.1.0",
+  "package-manager": "pnpm@latest",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -53,7 +54,7 @@
     "zod": "^3.23.6"
   },
   "devDependencies": {
-    "package-manager": "pnpm@latest",
+
     "@tailwindcss/typography": "^0.5.13",
     "mdast-util-toc": "^7.0.1",
     "remark": "^15.0.1",
